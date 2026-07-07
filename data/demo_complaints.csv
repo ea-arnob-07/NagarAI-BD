@@ -1,0 +1,61 @@
+text,category,severity
+"রাস্তায় ছোট একটি গর্ত দেখা দিয়েছে",road_transport,low
+"বাসস্ট্যান্ডের সামনে রাস্তা ভাঙা এবং যান চলাচলে সমস্যা",road_transport,medium
+"স্কুলের সামনে বড় গর্তে রিকশা উল্টে দুর্ঘটনার ঝুঁকি",road_transport,high
+"Rastay gorto hoye geche gari aste cholche",road_transport,medium
+"The footpath has a minor broken section",road_transport,low
+"Traffic signal is off at a busy crossing and accidents may happen",road_transport,high
+"বৃষ্টির পরে সড়কের বড় অংশ ধসে পড়েছে",road_transport,high
+"বাস থামার জায়গায় রাস্তার পিচ উঠে গেছে",road_transport,medium
+"Rickshaw cannot pass safely because of a deep pothole",road_transport,high
+"ফুটপাতের কয়েকটি ইট উঠে গেছে",road_transport,low
+"পানির লাইনে সামান্য লিক দেখা গেছে",water,low
+"ড্রেন বন্ধ হয়ে রাস্তায় পানি জমছে",water,medium
+"স্কুলের গেটে হাঁটু পানি এবং শিশুরা পার হতে পারছে না",water,high
+"Pani line fete shara rastay pani porche",water,medium
+"The drain smells bad after rain",water,low
+"Dirty sewer water is entering nearby homes",water,high
+"তিন দিন ধরে এলাকায় বিশুদ্ধ পানি নেই",water,medium
+"ভারী বৃষ্টিতে হাসপাতালের প্রবেশপথ ডুবে গেছে",water,high
+"Drain overflow korche kintu rasta ekhono chola jay",water,medium
+"পাইপ থেকে অল্প পানি পড়ছে",water,low
+"রাস্তার পাশে অল্প কিছু ময়লা পড়ে আছে",waste,low
+"বাজারের ময়লা তিন দিন ধরে সংগ্রহ করা হয়নি",waste,medium
+"হাসপাতালের মেডিকেল বর্জ্য খোলা জায়গায় ফেলা হয়েছে",waste,high
+"Dustbin overflow korche onek durgondho",waste,medium
+"A small litter pile is beside the footpath",waste,low
+"Garbage blocks the school entrance and children walk on the road",waste,high
+"ময়লার গাড়ি নিয়মিত না আসায় স্তূপ বাড়ছে",waste,medium
+"ড্রেনে বিষাক্ত শিল্পবর্জ্য ফেলা হচ্ছে",waste,high
+"Trash collection was missed once this week",waste,low
+"বাজারের আবর্জনায় রাস্তার অর্ধেক বন্ধ",waste,high
+"একটি সড়কবাতি মাঝে মাঝে বন্ধ থাকে",electricity,low
+"পুরো লেনে দুই রাত ধরে সড়কবাতি নেই",electricity,medium
+"ট্রান্সফরমার থেকে স্পার্ক হচ্ছে এবং আগুন লাগতে পারে",electricity,high
+"Current nai char ghonta dhore",electricity,medium
+"One street light is dim",electricity,low
+"A live electric wire has fallen beside a school",electricity,high
+"লোডশেডিংয়ের কারণে পানির পাম্প বন্ধ",electricity,medium
+"খোলা বৈদ্যুতিক বাক্সে শিশুরা হাত দিতে পারে",electricity,high
+"Transformer makes unusual noise every evening",electricity,medium
+"একটি বাতি নষ্ট হয়েছে",electricity,low
+"ক্লিনিকে সাধারণ জ্বরের ওষুধ কম আছে",healthcare,low
+"কমিউনিটি ক্লিনিকে দুই দিন ধরে ডাক্তার নেই",healthcare,medium
+"জরুরি রোগীর জন্য অ্যাম্বুলেন্স পাওয়া যাচ্ছে না",healthcare,high
+"Hospital e medicine nai onek patient opekkha korche",healthcare,medium
+"The clinic waiting area needs a minor repair",healthcare,low
+"Critical patient cannot enter the emergency ward",healthcare,high
+"টিকা সরবরাহ অনিয়মিত হওয়ায় মানুষ ফিরে যাচ্ছে",healthcare,medium
+"ডেঙ্গু রোগীর জন্য কোনো শয্যা নেই",healthcare,high
+"A health desk opens late sometimes",healthcare,low
+"হাসপাতালে অক্সিজেন সরবরাহ বন্ধ হয়ে গেছে",healthcare,high
+"দোকানে একটি পণ্যের মূল্যতালিকা নেই",food,low
+"বাজারে কয়েকটি নিত্যপণ্যের দাম বেশি নেওয়া হচ্ছে",food,medium
+"স্কুলের পাশে মেয়াদোত্তীর্ণ খাবার বিক্রি হচ্ছে",food,high
+"Khabare vejal ache bole mone hocche",food,medium
+"A restaurant menu has one incorrect price",food,low
+"Spoiled food made several children ill",food,high
+"রেশনের চাল নিয়মিত সময়ে বিতরণ হচ্ছে না",food,medium
+"বিষাক্ত রাসায়নিক দিয়ে ফল পাকানো হচ্ছে",food,high
+"দোকানদার ওজনে সামান্য কম দিয়েছে",food,low
+"বাজারে পচা মাংস বিক্রি করা হচ্ছে",food,high
