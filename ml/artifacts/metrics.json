@@ -1,0 +1,269 @@
+{
+  "warning": "Metrics describe only the held-out split of the named dataset; do not generalize them to deployment.",
+  "dataset": "demo_complaints.csv",
+  "rows": 60,
+  "category": {
+    "macro_f1": 0.35555555555555557,
+    "labels": [
+      "electricity",
+      "food",
+      "healthcare",
+      "road_transport",
+      "waste",
+      "water"
+    ],
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    ],
+    "classification_report": {
+      "electricity": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1-score": 0.5,
+        "support": 2.0
+      },
+      "food": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1-score": 0.8,
+        "support": 2.0
+      },
+      "healthcare": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1-score": 0.5,
+        "support": 2.0
+      },
+      "road_transport": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2.0
+      },
+      "waste": {
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1-score": 0.3333333333333333,
+        "support": 2.0
+      },
+      "water": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2.0
+      },
+      "accuracy": 0.4166666666666667,
+      "macro avg": {
+        "precision": 0.3194444444444444,
+        "recall": 0.4166666666666667,
+        "f1-score": 0.35555555555555557,
+        "support": 12.0
+      },
+      "weighted avg": {
+        "precision": 0.3194444444444444,
+        "recall": 0.4166666666666667,
+        "f1-score": 0.35555555555555557,
+        "support": 12.0
+      }
+    },
+    "per_model": {
+      "word_logistic": {
+        "name": "Word Logistic Regression",
+        "macro_f1": 0.18888888888888888
+      },
+      "char_linear_svc": {
+        "name": "Calibrated Character SVM",
+        "macro_f1": 0.5499999999999999
+      },
+      "word_multinomial_nb": {
+        "name": "Word Multinomial NB",
+        "macro_f1": 0.23650793650793647
+      },
+      "char_complement_nb": {
+        "name": "Character Complement NB",
+        "macro_f1": 0.4611111111111111
+      },
+      "hybrid_sgd": {
+        "name": "Hybrid SGD Log-Loss",
+        "macro_f1": 0.35000000000000003
+      },
+      "svd_random_forest": {
+        "name": "SVD Random Forest",
+        "macro_f1": 0.19444444444444442
+      }
+    },
+    "validation_f1": {
+      "word_logistic": 0.1111111111111111,
+      "char_linear_svc": 0.3611111111111111,
+      "word_multinomial_nb": 0.0,
+      "char_complement_nb": 0.3055555555555555,
+      "hybrid_sgd": 0.3055555555555555,
+      "svd_random_forest": 0.15
+    },
+    "weights": {
+      "word_logistic": 0.08658008658008658,
+      "char_linear_svc": 0.2813852813852814,
+      "word_multinomial_nb": 0.03896103896103897,
+      "char_complement_nb": 0.23809523809523808,
+      "hybrid_sgd": 0.23809523809523808,
+      "svd_random_forest": 0.1168831168831169
+    },
+    "split": {
+      "train": 36,
+      "validation": 12,
+      "test": 12
+    }
+  },
+  "severity": {
+    "macro_f1": 0.6476190476190476,
+    "labels": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "confusion_matrix": [
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        4,
+        0
+      ],
+      [
+        1,
+        1,
+        2
+      ]
+    ],
+    "classification_report": {
+      "high": {
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "f1-score": 0.5714285714285714,
+        "support": 4.0
+      },
+      "low": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1-score": 0.8,
+        "support": 4.0
+      },
+      "medium": {
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "f1-score": 0.5714285714285714,
+        "support": 4.0
+      },
+      "accuracy": 0.6666666666666666,
+      "macro avg": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6476190476190476,
+        "support": 12.0
+      },
+      "weighted avg": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6476190476190476,
+        "support": 12.0
+      }
+    },
+    "per_model": {
+      "word_logistic": {
+        "name": "Word Logistic Regression",
+        "macro_f1": 0.5945165945165946
+      },
+      "char_linear_svc": {
+        "name": "Calibrated Character SVM",
+        "macro_f1": 0.7367724867724869
+      },
+      "word_multinomial_nb": {
+        "name": "Word Multinomial NB",
+        "macro_f1": 0.5945165945165946
+      },
+      "char_complement_nb": {
+        "name": "Character Complement NB",
+        "macro_f1": 0.6476190476190476
+      },
+      "hybrid_sgd": {
+        "name": "Hybrid SGD Log-Loss",
+        "macro_f1": 0.7367724867724869
+      },
+      "svd_random_forest": {
+        "name": "SVD Random Forest",
+        "macro_f1": 0.6761904761904761
+      }
+    },
+    "validation_f1": {
+      "word_logistic": 0.7503607503607502,
+      "char_linear_svc": 0.37222222222222223,
+      "word_multinomial_nb": 0.7503607503607502,
+      "char_complement_nb": 0.37222222222222223,
+      "hybrid_sgd": 0.4386724386724386,
+      "svd_random_forest": 0.5052910052910052
+    },
+    "weights": {
+      "word_logistic": 0.2352870199993967,
+      "char_linear_svc": 0.1167159361708546,
+      "word_multinomial_nb": 0.2352870199993967,
+      "char_complement_nb": 0.1167159361708546,
+      "hybrid_sgd": 0.137552411691955,
+      "svd_random_forest": 0.15844167596754247
+    },
+    "split": {
+      "train": 36,
+      "validation": 12,
+      "test": 12
+    }
+  }
+}
