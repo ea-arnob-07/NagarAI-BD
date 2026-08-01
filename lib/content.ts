@@ -324,3 +324,4 @@ export const datasets = [
   { title: "Roadway Flooding", use: { en: "Flooded-road verification", bn: "জলাবদ্ধ সড়ক যাচাই" }, detail: { en: "441 annotated images · CC BY 4.0", bn: "৪৪১টি annotated image · CC BY 4.0" }, href: "https://data.mendeley.com/datasets/t395bwcvbw/1" },
   { title: "TACO", use: { en: "Litter detection and segmentation", bn: "বর্জ্য শনাক্তকরণ ও segmentation" }, detail: { en: "COCO-format litter annotations", bn: "COCO-format litter annotation" }, href: "https://github.com/pedropro/TACO" },
 ];
+// Refinement 112: refactor(ml): optimize soft-voting weights derived from validation f1
