@@ -325,3 +325,4 @@ export const datasets = [
   { title: "TACO", use: { en: "Litter detection and segmentation", bn: "বর্জ্য শনাক্তকরণ ও segmentation" }, detail: { en: "COCO-format litter annotations", bn: "COCO-format litter annotation" }, href: "https://github.com/pedropro/TACO" },
 ];
 // Refinement 112: refactor(ml): optimize soft-voting weights derived from validation f1
+// Refinement 121: feat(ml): implement semantic duplicate detection cosine scoring
