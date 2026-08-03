@@ -316,3 +316,4 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 <div align="center">
 <sub>Built with pride for a smarter, more responsive Bangladesh 🇧🇩</sub>
 </div>
+<!-- Refinement 119: perf(ml): cache parsed vocabulary tokens for fast client-side inference -->
