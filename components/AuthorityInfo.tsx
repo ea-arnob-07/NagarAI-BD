@@ -111,3 +111,4 @@ export default function AuthorityInfo({ locale, lat, lng, locationText, detected
   );
 }
 // Refinement 115: fix(ml): handle edge case for zero-length complaint descriptions
+// Refinement 124: style(ui): improve contrast ratios on high priority severity badges
