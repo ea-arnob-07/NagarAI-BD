@@ -439,3 +439,4 @@ export function getCategories() {
   return categories;
 }
 // Refinement 114: feat(ml): enhance character n-gram bounds for banglish phonetic noise
+// Refinement 123: docs(ml): document model hyperparameters and cross-validation methodology
