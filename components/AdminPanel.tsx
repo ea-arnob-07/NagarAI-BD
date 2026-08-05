@@ -1035,3 +1035,4 @@ function PrintDocketModal({
   );
 }
 // Refinement 117: feat(ml): add confidence thresholding for human-in-the-loop triage
+// Refinement 126: refactor(ui): extract reusable badge variants using class-variance-authority
