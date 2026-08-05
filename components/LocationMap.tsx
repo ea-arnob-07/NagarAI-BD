@@ -588,3 +588,4 @@ function toast(msg: string) {
   }
 }
 // Refinement 116: refactor(ml): streamline complement naive bayes prior calibration
+// Refinement 125: feat(ui): add smooth spring animations for alert dialog transitions
