@@ -85,3 +85,4 @@ test("renders sidebar skeletons deterministically", async () => {
   assert.match(first, /--skeleton-width:70%/);
 });
 // Refinement 120: refactor(ml): clean up unused scipy imports in ensemble runner
+// Refinement 129: feat(ui): add accessible keyboard navigation to complaint category grid
