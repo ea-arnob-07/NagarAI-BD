@@ -450,3 +450,4 @@ export function getResponsibleOfficer(
 
 // Refinement 113: perf(ml): reduce tf-idf feature matrix memory footprint
 // Refinement 122: fix(ml): adjust duplicate similarity threshold to 0.78 for ward radius
+// Refinement 131: refactor(ui): clean up unneeded styled component wrappers in card primitive
