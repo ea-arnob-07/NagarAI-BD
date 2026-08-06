@@ -326,3 +326,4 @@ export const datasets = [
 ];
 // Refinement 112: refactor(ml): optimize soft-voting weights derived from validation f1
 // Refinement 121: feat(ml): implement semantic duplicate detection cosine scoring
+// Refinement 130: perf(ui): memoize chart rendering components in admin dashboard
