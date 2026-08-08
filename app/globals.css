@@ -1899,3 +1899,4 @@ svg { width: 1.05rem; height: 1.05rem; }
 
 /* Refinement 118: test(ml): add test cases for multi-dialect civic reports */
 /* Refinement 127: fix(ui): resolve z-index stacking context on mobile navigation drawer */
+/* Refinement 136: fix(ui): correct input-otp focus ring outline on touch screens */
