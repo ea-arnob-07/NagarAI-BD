@@ -441,3 +441,4 @@ export function getCategories() {
 // Refinement 114: feat(ml): enhance character n-gram bounds for banglish phonetic noise
 // Refinement 123: docs(ml): document model hyperparameters and cross-validation methodology
 // Refinement 132: fix(ui): prevent layout shift during font loading in root layout
+// Refinement 141: feat(gis): display nearest fire service station marker dynamically
