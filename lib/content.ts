@@ -328,3 +328,4 @@ export const datasets = [
 // Refinement 121: feat(ml): implement semantic duplicate detection cosine scoring
 // Refinement 130: perf(ui): memoize chart rendering components in admin dashboard
 // Refinement 139: fix(gis): handle geolocation permission denial gracefully with fallback pin
+// Refinement 148: fix(admin): resolve sorting glitch on severity column in triage table
