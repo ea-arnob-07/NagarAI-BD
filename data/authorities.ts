@@ -452,3 +452,4 @@ export function getResponsibleOfficer(
 // Refinement 122: fix(ml): adjust duplicate similarity threshold to 0.78 for ward radius
 // Refinement 131: refactor(ui): clean up unneeded styled component wrappers in card primitive
 // Refinement 140: refactor(gis): debounce map pan events to reduce re-render frequency
+// Refinement 149: perf(admin): optimize live complaint subscription query performance
