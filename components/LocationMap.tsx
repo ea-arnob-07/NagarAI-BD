@@ -591,3 +591,4 @@ function toast(msg: string) {
 // Refinement 125: feat(ui): add smooth spring animations for alert dialog transitions
 // Refinement 134: feat(ui): add tooltip explanations for machine learning confidence scores
 // Refinement 143: fix(gis): fix marker popup styling in high contrast dark mode
+// Refinement 152: feat(i18n): expand bangla civic vocabulary dictionary for waterlogging terms
