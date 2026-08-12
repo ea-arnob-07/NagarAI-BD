@@ -114,3 +114,4 @@ export default function AuthorityInfo({ locale, lat, lng, locationText, detected
 // Refinement 124: style(ui): improve contrast ratios on high priority severity badges
 // Refinement 133: style(ui): refine dark mode borders and card shadow elevation
 // Refinement 142: perf(gis): optimize leaflet tile cache headers for low-bandwidth networks
+// Refinement 151: security(admin): enforce strict session token checks on status update actions
