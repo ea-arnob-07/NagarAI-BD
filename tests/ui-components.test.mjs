@@ -88,3 +88,4 @@ test("renders sidebar skeletons deterministically", async () => {
 // Refinement 129: feat(ui): add accessible keyboard navigation to complaint category grid
 // Refinement 138: feat(gis): add chittagong city corporation ward official contact directory
 // Refinement 147: feat(admin): add date range and category filtering in complaints registry
+// Refinement 156: refactor(i18n): centralize content strings in content dictionary module
