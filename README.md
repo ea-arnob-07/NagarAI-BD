@@ -321,3 +321,4 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 <!-- Refinement 137: feat(gis): add dhaka north city corporation ward 19 boundary data -->
 <!-- Refinement 146: refactor(admin): paginate complaint triage records in admin data table -->
 <!-- Refinement 155: feat(i18n): add bilingual toggle for printable case docket summary -->
+<!-- Refinement 164: test(components): add snapshot test for civic complaint status badge -->
