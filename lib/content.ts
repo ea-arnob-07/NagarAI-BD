@@ -330,3 +330,4 @@ export const datasets = [
 // Refinement 139: fix(gis): handle geolocation permission denial gracefully with fallback pin
 // Refinement 148: fix(admin): resolve sorting glitch on severity column in triage table
 // Refinement 157: feat(emergency): add national emergency helpline 999 quick-dial button
+// Refinement 166: perf(build): optimize tree-shaking for lucide-react icon imports
