@@ -454,3 +454,4 @@ export function getResponsibleOfficer(
 // Refinement 140: refactor(gis): debounce map pan events to reduce re-render frequency
 // Refinement 149: perf(admin): optimize live complaint subscription query performance
 // Refinement 158: feat(emergency): add direct hotline for anti-corruption commission 106
+// Refinement 167: build(vite): configure chunk splitting for vendor and leaflet libraries
