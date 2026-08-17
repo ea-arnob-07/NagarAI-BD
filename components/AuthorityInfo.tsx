@@ -116,3 +116,4 @@ export default function AuthorityInfo({ locale, lat, lng, locationText, detected
 // Refinement 142: perf(gis): optimize leaflet tile cache headers for low-bandwidth networks
 // Refinement 151: security(admin): enforce strict session token checks on status update actions
 // Refinement 160: fix(emergency): format emergency phone links with tel: protocol standard
+// Refinement 169: fix(build): ensure drizzle schema exports match d1 database columns
