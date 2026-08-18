@@ -331,3 +331,4 @@ export const datasets = [
 // Refinement 148: fix(admin): resolve sorting glitch on severity column in triage table
 // Refinement 157: feat(emergency): add national emergency helpline 999 quick-dial button
 // Refinement 166: perf(build): optimize tree-shaking for lucide-react icon imports
+// Refinement 175: docs: add civic department jurisdiction mapping reference
