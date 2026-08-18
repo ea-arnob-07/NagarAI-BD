@@ -322,3 +322,4 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 <!-- Refinement 146: refactor(admin): paginate complaint triage records in admin data table -->
 <!-- Refinement 155: feat(i18n): add bilingual toggle for printable case docket summary -->
 <!-- Refinement 164: test(components): add snapshot test for civic complaint status badge -->
+<!-- Refinement 173: docs: add quickstart instructions for powershell and bash environments -->
