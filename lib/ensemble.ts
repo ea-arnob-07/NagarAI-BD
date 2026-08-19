@@ -445,3 +445,4 @@ export function getCategories() {
 // Refinement 150: feat(admin): export citizen grievances to structured csv and json formats
 // Refinement 159: feat(emergency): include women and child support helpline 10921
 // Refinement 168: build(worker): configure cloudflare d1 sqlite database local migrations
+// Refinement 177: style: standardize code formatting across tsx and css files
