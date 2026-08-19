@@ -455,3 +455,4 @@ export function getResponsibleOfficer(
 // Refinement 149: perf(admin): optimize live complaint subscription query performance
 // Refinement 158: feat(emergency): add direct hotline for anti-corruption commission 106
 // Refinement 167: build(vite): configure chunk splitting for vendor and leaflet libraries
+// Refinement 176: docs: add contribution guidelines and ethical ai principles
