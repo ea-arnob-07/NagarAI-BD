@@ -594,3 +594,4 @@ function toast(msg: string) {
 // Refinement 152: feat(i18n): expand bangla civic vocabulary dictionary for waterlogging terms
 // Refinement 161: test(components): verify interactive map coordinate selector rendering
 // Refinement 170: refactor(db): add indexes on complaint category and ward id columns
+// Refinement 179: perf: reduce client-side bundle size by stripping debug symbols
