@@ -323,3 +323,4 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 <!-- Refinement 155: feat(i18n): add bilingual toggle for printable case docket summary -->
 <!-- Refinement 164: test(components): add snapshot test for civic complaint status badge -->
 <!-- Refinement 173: docs: add quickstart instructions for powershell and bash environments -->
+<!-- Refinement 182: feat: add photo attachment thumbnail preview before submission -->
