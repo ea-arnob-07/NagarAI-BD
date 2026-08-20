@@ -1041,3 +1041,4 @@ function PrintDocketModal({
 // Refinement 153: feat(i18n): improve banglish transliteration mapping for road damage
 // Refinement 162: test(components): test form submission validation with empty text inputs
 // Refinement 171: perf(db): optimize batch insert queries for seed complaint datasets
+// Refinement 180: feat: add offline indicator banner when connection is interrupted
