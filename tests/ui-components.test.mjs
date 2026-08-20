@@ -91,3 +91,4 @@ test("renders sidebar skeletons deterministically", async () => {
 // Refinement 156: refactor(i18n): centralize content strings in content dictionary module
 // Refinement 165: test(e2e): verify end-to-end complaint intake and triage pipeline
 // Refinement 174: docs: document 6-model ensemble voting formula in markdown table
+// Refinement 183: fix: validate uploaded image file types and limit size to 5mb
