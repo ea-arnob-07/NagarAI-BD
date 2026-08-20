@@ -1904,3 +1904,4 @@ svg { width: 1.05rem; height: 1.05rem; }
 /* Refinement 154: fix(i18n): correct typo in municipal health clinic notice description */
 /* Refinement 163: test(components): test authority info lookup with unknown ward ID */
 /* Refinement 172: docs: add system architecture sequence diagram to readme */
+/* Refinement 181: fix: ensure proper aria attributes on complaint description textarea */
