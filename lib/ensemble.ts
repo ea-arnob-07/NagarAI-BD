@@ -446,3 +446,4 @@ export function getCategories() {
 // Refinement 159: feat(emergency): include women and child support helpline 10921
 // Refinement 168: build(worker): configure cloudflare d1 sqlite database local migrations
 // Refinement 177: style: standardize code formatting across tsx and css files
+// Refinement 186: perf: cache geocoding reverse lookup responses in memory
