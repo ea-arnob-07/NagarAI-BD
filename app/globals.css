@@ -1905,3 +1905,4 @@ svg { width: 1.05rem; height: 1.05rem; }
 /* Refinement 163: test(components): test authority info lookup with unknown ward ID */
 /* Refinement 172: docs: add system architecture sequence diagram to readme */
 /* Refinement 181: fix: ensure proper aria attributes on complaint description textarea */
+/* Refinement 190: style: improve table row hover highlights on mobile screen widths */
