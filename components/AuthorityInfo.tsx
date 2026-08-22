@@ -118,3 +118,4 @@ export default function AuthorityInfo({ locale, lat, lng, locationText, detected
 // Refinement 160: fix(emergency): format emergency phone links with tel: protocol standard
 // Refinement 169: fix(build): ensure drizzle schema exports match d1 database columns
 // Refinement 178: refactor: extract common types for civic grievance dockets
+// Refinement 187: feat: add confirmation modal before resolving high-severity complaints
