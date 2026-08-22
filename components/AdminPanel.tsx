@@ -1042,3 +1042,4 @@ function PrintDocketModal({
 // Refinement 162: test(components): test form submission validation with empty text inputs
 // Refinement 171: perf(db): optimize batch insert queries for seed complaint datasets
 // Refinement 180: feat: add offline indicator banner when connection is interrupted
+// Refinement 189: feat: add live character counter on citizen complaint description input
