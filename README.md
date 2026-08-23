@@ -324,3 +324,4 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 <!-- Refinement 164: test(components): add snapshot test for civic complaint status badge -->
 <!-- Refinement 173: docs: add quickstart instructions for powershell and bash environments -->
 <!-- Refinement 182: feat: add photo attachment thumbnail preview before submission -->
+<!-- Refinement 191: refactor: modularize api client with custom request interceptors -->
