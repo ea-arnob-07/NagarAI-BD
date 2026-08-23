@@ -457,3 +457,4 @@ export function getResponsibleOfficer(
 // Refinement 167: build(vite): configure chunk splitting for vendor and leaflet libraries
 // Refinement 176: docs: add contribution guidelines and ethical ai principles
 // Refinement 185: refactor: clean up deprecated react lifecycle hooks in map container
+// Refinement 194: docs: update license attribution and team evolutionx credits
