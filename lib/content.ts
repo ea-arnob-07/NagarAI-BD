@@ -333,3 +333,4 @@ export const datasets = [
 // Refinement 166: perf(build): optimize tree-shaking for lucide-react icon imports
 // Refinement 175: docs: add civic department jurisdiction mapping reference
 // Refinement 184: style: polish button hover state transitions with subtle elevation
+// Refinement 193: feat: display consensus agreement bar across all 6 ml models
