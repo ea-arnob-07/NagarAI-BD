@@ -119,3 +119,4 @@ export default function AuthorityInfo({ locale, lat, lng, locationText, detected
 // Refinement 169: fix(build): ensure drizzle schema exports match d1 database columns
 // Refinement 178: refactor: extract common types for civic grievance dockets
 // Refinement 187: feat: add confirmation modal before resolving high-severity complaints
+// Refinement 196: chore: setup release configuration and cross-env compatibility
