@@ -93,3 +93,4 @@ test("renders sidebar skeletons deterministically", async () => {
 // Refinement 174: docs: document 6-model ensemble voting formula in markdown table
 // Refinement 183: fix: validate uploaded image file types and limit size to 5mb
 // Refinement 192: fix: handle 500 error gracefully with fallback offline classifier
+// Refinement 201: refactor(ml): streamline complement naive bayes prior calibration (iteration 2)
