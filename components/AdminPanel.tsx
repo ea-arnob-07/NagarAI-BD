@@ -1043,3 +1043,4 @@ function PrintDocketModal({
 // Refinement 171: perf(db): optimize batch insert queries for seed complaint datasets
 // Refinement 180: feat: add offline indicator banner when connection is interrupted
 // Refinement 189: feat: add live character counter on citizen complaint description input
+// Refinement 198: perf(ml): reduce tf-idf feature matrix memory footprint (iteration 2)
