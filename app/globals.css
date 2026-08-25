@@ -1906,3 +1906,4 @@ svg { width: 1.05rem; height: 1.05rem; }
 /* Refinement 172: docs: add system architecture sequence diagram to readme */
 /* Refinement 181: fix: ensure proper aria attributes on complaint description textarea */
 /* Refinement 190: style: improve table row hover highlights on mobile screen widths */
+/* Refinement 199: feat(ml): enhance character n-gram bounds for banglish phonetic noise (iteration 2) */
