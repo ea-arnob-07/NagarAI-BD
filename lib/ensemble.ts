@@ -448,3 +448,4 @@ export function getCategories() {
 // Refinement 177: style: standardize code formatting across tsx and css files
 // Refinement 186: perf: cache geocoding reverse lookup responses in memory
 // Refinement 195: test: ensure all 5/5 unit and render tests pass cleanly
+// Refinement 204: perf(ml): cache parsed vocabulary tokens for fast client-side inference (iteration 2)
