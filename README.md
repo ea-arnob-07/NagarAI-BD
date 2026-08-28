@@ -326,3 +326,4 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 <!-- Refinement 182: feat: add photo attachment thumbnail preview before submission -->
 <!-- Refinement 191: refactor: modularize api client with custom request interceptors -->
 <!-- Refinement 200: fix(ml): handle edge case for zero-length complaint descriptions (iteration 2) -->
+<!-- Refinement 209: style(ui): improve contrast ratios on high priority severity badges (iteration 2) -->
