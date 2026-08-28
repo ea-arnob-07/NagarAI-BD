@@ -335,3 +335,4 @@ export const datasets = [
 // Refinement 184: style: polish button hover state transitions with subtle elevation
 // Refinement 193: feat: display consensus agreement bar across all 6 ml models
 // Refinement 202: feat(ml): add confidence thresholding for human-in-the-loop triage (iteration 2)
+// Refinement 211: refactor(ui): extract reusable badge variants using class-variance-authority (iteration 2)
