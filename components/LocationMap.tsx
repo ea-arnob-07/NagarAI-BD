@@ -598,3 +598,4 @@ function toast(msg: string) {
 // Refinement 188: fix: prevent duplicate form submissions with disabled submit state
 // Refinement 197: refactor(ml): optimize soft-voting weights derived from validation f1 (iteration 2)
 // Refinement 206: feat(ml): implement semantic duplicate detection cosine scoring (iteration 2)
+// Refinement 215: perf(ui): memoize chart rendering components in admin dashboard (iteration 2)
