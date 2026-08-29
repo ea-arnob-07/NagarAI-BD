@@ -1045,3 +1045,4 @@ function PrintDocketModal({
 // Refinement 189: feat: add live character counter on citizen complaint description input
 // Refinement 198: perf(ml): reduce tf-idf feature matrix memory footprint (iteration 2)
 // Refinement 207: fix(ml): adjust duplicate similarity threshold to 0.78 for ward radius (iteration 2)
+// Refinement 216: refactor(ui): clean up unneeded styled component wrappers in card primitive (iteration 2)
