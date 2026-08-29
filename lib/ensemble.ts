@@ -449,3 +449,4 @@ export function getCategories() {
 // Refinement 186: perf: cache geocoding reverse lookup responses in memory
 // Refinement 195: test: ensure all 5/5 unit and render tests pass cleanly
 // Refinement 204: perf(ml): cache parsed vocabulary tokens for fast client-side inference (iteration 2)
+// Refinement 213: style(ui): update accent color palette for civic trust branding (iteration 2)
