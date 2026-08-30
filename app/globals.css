@@ -1908,3 +1908,4 @@ svg { width: 1.05rem; height: 1.05rem; }
 /* Refinement 190: style: improve table row hover highlights on mobile screen widths */
 /* Refinement 199: feat(ml): enhance character n-gram bounds for banglish phonetic noise (iteration 2) */
 /* Refinement 208: docs(ml): document model hyperparameters and cross-validation methodology (iteration 2) */
+/* Refinement 217: fix(ui): prevent layout shift during font loading in root layout (iteration 2) */
