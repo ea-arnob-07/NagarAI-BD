@@ -95,3 +95,4 @@ test("renders sidebar skeletons deterministically", async () => {
 // Refinement 192: fix: handle 500 error gracefully with fallback offline classifier
 // Refinement 201: refactor(ml): streamline complement naive bayes prior calibration (iteration 2)
 // Refinement 210: feat(ui): add smooth spring animations for alert dialog transitions (iteration 2)
+// Refinement 219: feat(ui): add tooltip explanations for machine learning confidence scores (iteration 2)
