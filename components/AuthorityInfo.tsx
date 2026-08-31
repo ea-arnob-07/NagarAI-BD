@@ -122,3 +122,4 @@ export default function AuthorityInfo({ locale, lat, lng, locationText, detected
 // Refinement 196: chore: setup release configuration and cross-env compatibility
 // Refinement 205: refactor(ml): clean up unused scipy imports in ensemble runner (iteration 2)
 // Refinement 214: feat(ui): add accessible keyboard navigation to complaint category grid (iteration 2)
+// Refinement 223: feat(gis): add chittagong city corporation ward official contact directory (iteration 2)
