@@ -460,3 +460,4 @@ export function getResponsibleOfficer(
 // Refinement 194: docs: update license attribution and team evolutionx credits
 // Refinement 203: test(ml): add test cases for multi-dialect civic reports (iteration 2)
 // Refinement 212: fix(ui): resolve z-index stacking context on mobile navigation drawer (iteration 2)
+// Refinement 221: fix(ui): correct input-otp focus ring outline on touch screens (iteration 2)
