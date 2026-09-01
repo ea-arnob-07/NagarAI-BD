@@ -599,3 +599,4 @@ function toast(msg: string) {
 // Refinement 197: refactor(ml): optimize soft-voting weights derived from validation f1 (iteration 2)
 // Refinement 206: feat(ml): implement semantic duplicate detection cosine scoring (iteration 2)
 // Refinement 215: perf(ui): memoize chart rendering components in admin dashboard (iteration 2)
+// Refinement 224: fix(gis): handle geolocation permission denial gracefully with fallback pin (iteration 2)
