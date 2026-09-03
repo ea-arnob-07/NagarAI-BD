@@ -451,3 +451,4 @@ export function getCategories() {
 // Refinement 204: perf(ml): cache parsed vocabulary tokens for fast client-side inference (iteration 2)
 // Refinement 213: style(ui): update accent color palette for civic trust branding (iteration 2)
 // Refinement 222: feat(gis): add dhaka north city corporation ward 19 boundary data (iteration 2)
+// Refinement 231: refactor(admin): paginate complaint triage records in admin data table (iteration 2)
