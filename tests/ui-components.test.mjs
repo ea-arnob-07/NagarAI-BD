@@ -97,3 +97,4 @@ test("renders sidebar skeletons deterministically", async () => {
 // Refinement 210: feat(ui): add smooth spring animations for alert dialog transitions (iteration 2)
 // Refinement 219: feat(ui): add tooltip explanations for machine learning confidence scores (iteration 2)
 // Refinement 228: fix(gis): fix marker popup styling in high contrast dark mode (iteration 2)
+// Refinement 237: feat(i18n): expand bangla civic vocabulary dictionary for waterlogging terms (iteration 2)
