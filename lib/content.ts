@@ -338,3 +338,4 @@ export const datasets = [
 // Refinement 211: refactor(ui): extract reusable badge variants using class-variance-authority (iteration 2)
 // Refinement 220: perf(ui): lazy load heavy leaflet icons and map tile layers (iteration 2)
 // Refinement 229: feat(admin): add one-click pdf municipal docket print preview (iteration 2)
+// Refinement 238: feat(i18n): improve banglish transliteration mapping for road damage (iteration 2)
