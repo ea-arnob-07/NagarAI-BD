@@ -1910,3 +1910,4 @@ svg { width: 1.05rem; height: 1.05rem; }
 /* Refinement 208: docs(ml): document model hyperparameters and cross-validation methodology (iteration 2) */
 /* Refinement 217: fix(ui): prevent layout shift during font loading in root layout (iteration 2) */
 /* Refinement 226: feat(gis): display nearest fire service station marker dynamically (iteration 2) */
+/* Refinement 235: feat(admin): export citizen grievances to structured csv and json formats (iteration 2) */
