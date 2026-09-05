@@ -124,3 +124,4 @@ export default function AuthorityInfo({ locale, lat, lng, locationText, detected
 // Refinement 214: feat(ui): add accessible keyboard navigation to complaint category grid (iteration 2)
 // Refinement 223: feat(gis): add chittagong city corporation ward official contact directory (iteration 2)
 // Refinement 232: feat(admin): add date range and category filtering in complaints registry (iteration 2)
+// Refinement 241: refactor(i18n): centralize content strings in content dictionary module (iteration 2)
