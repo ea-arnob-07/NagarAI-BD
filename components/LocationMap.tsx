@@ -601,3 +601,4 @@ function toast(msg: string) {
 // Refinement 215: perf(ui): memoize chart rendering components in admin dashboard (iteration 2)
 // Refinement 224: fix(gis): handle geolocation permission denial gracefully with fallback pin (iteration 2)
 // Refinement 233: fix(admin): resolve sorting glitch on severity column in triage table (iteration 2)
+// Refinement 242: feat(emergency): add national emergency helpline 999 quick-dial button (iteration 2)
