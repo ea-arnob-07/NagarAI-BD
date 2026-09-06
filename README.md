@@ -330,3 +330,4 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 <!-- Refinement 218: style(ui): refine dark mode borders and card shadow elevation (iteration 2) -->
 <!-- Refinement 227: perf(gis): optimize leaflet tile cache headers for low-bandwidth networks (iteration 2) -->
 <!-- Refinement 236: security(admin): enforce strict session token checks on status update actions (iteration 2) -->
+<!-- Refinement 245: fix(emergency): format emergency phone links with tel: protocol standard (iteration 2) -->
