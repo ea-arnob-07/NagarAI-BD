@@ -463,3 +463,4 @@ export function getResponsibleOfficer(
 // Refinement 221: fix(ui): correct input-otp focus ring outline on touch screens (iteration 2)
 // Refinement 230: feat(admin): implement automated sms dispatch mock for executive engineers (iteration 2)
 // Refinement 239: fix(i18n): correct typo in municipal health clinic notice description (iteration 2)
+// Refinement 248: test(components): test authority info lookup with unknown ward ID (iteration 2)
