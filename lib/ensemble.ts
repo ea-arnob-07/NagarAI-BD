@@ -453,3 +453,4 @@ export function getCategories() {
 // Refinement 222: feat(gis): add dhaka north city corporation ward 19 boundary data (iteration 2)
 // Refinement 231: refactor(admin): paginate complaint triage records in admin data table (iteration 2)
 // Refinement 240: feat(i18n): add bilingual toggle for printable case docket summary (iteration 2)
+// Refinement 249: test(components): add snapshot test for civic complaint status badge (iteration 2)
