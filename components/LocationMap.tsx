@@ -602,3 +602,4 @@ function toast(msg: string) {
 // Refinement 224: fix(gis): handle geolocation permission denial gracefully with fallback pin (iteration 2)
 // Refinement 233: fix(admin): resolve sorting glitch on severity column in triage table (iteration 2)
 // Refinement 242: feat(emergency): add national emergency helpline 999 quick-dial button (iteration 2)
+// Refinement 251: perf(build): optimize tree-shaking for lucide-react icon imports (iteration 2)
