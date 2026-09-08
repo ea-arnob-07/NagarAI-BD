@@ -1049,3 +1049,4 @@ function PrintDocketModal({
 // Refinement 225: refactor(gis): debounce map pan events to reduce re-render frequency (iteration 2)
 // Refinement 234: perf(admin): optimize live complaint subscription query performance (iteration 2)
 // Refinement 243: feat(emergency): add direct hotline for anti-corruption commission 106 (iteration 2)
+// Refinement 252: build(vite): configure chunk splitting for vendor and leaflet libraries (iteration 2)
