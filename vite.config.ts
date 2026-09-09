@@ -4,19 +4,7 @@ import { nagaraiPlugin } from "./build/nagarai-vite-plugin";
 
 const LOCAL_D1_DATABASE_ID = "00000000-0000-4000-8000-000000000000";
 
-const localBindingConfig = {
-  main: "./worker/index.ts",
-  compatibility_flags: ["nodejs_compat"],
-  d1_databases: [
-    {
-      binding: "DB",
-      database_name: "nagarai-d1",
-      database_id: LOCAL_D1_DATABASE_ID,
-    },
-  ],
-};
-
-export default defineConfig(async () => {
+export default defineConfig(async ({ command, mode }) => {
   // Keep Wrangler and Miniflare state project-local. These are non-secret tool
   // settings; application environment belongs in ignored `.env*` files.
   process.env.WRANGLER_WRITE_LOGS ??= "false";
@@ -25,6 +13,24 @@ export default defineConfig(async () => {
 
   // Wrangler snapshots its log path while the Cloudflare plugin is imported.
   const { cloudflare } = await import("@cloudflare/vite-plugin");
+
+  const isDev = command === "serve" || mode === "development";
+  const d1DatabaseId = process.env.D1_DATABASE_ID || (isDev ? LOCAL_D1_DATABASE_ID : undefined);
+
+  const localBindingConfig: Record<string, unknown> = {
+    main: "./worker/index.ts",
+    compatibility_flags: ["nodejs_compat"],
+  };
+
+  if (d1DatabaseId) {
+    localBindingConfig.d1_databases = [
+      {
+        binding: "DB",
+        database_name: "nagarai-d1",
+        database_id: d1DatabaseId,
+      },
+    ];
+  }
 
   return {
     server: {

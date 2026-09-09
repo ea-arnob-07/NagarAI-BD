@@ -1034,19 +1034,3 @@ function PrintDocketModal({
     </div>
   );
 }
-// Refinement 117: feat(ml): add confidence thresholding for human-in-the-loop triage
-// Refinement 126: refactor(ui): extract reusable badge variants using class-variance-authority
-// Refinement 135: perf(ui): lazy load heavy leaflet icons and map tile layers
-// Refinement 144: feat(admin): add one-click pdf municipal docket print preview
-// Refinement 153: feat(i18n): improve banglish transliteration mapping for road damage
-// Refinement 162: test(components): test form submission validation with empty text inputs
-// Refinement 171: perf(db): optimize batch insert queries for seed complaint datasets
-// Refinement 180: feat: add offline indicator banner when connection is interrupted
-// Refinement 189: feat: add live character counter on citizen complaint description input
-// Refinement 198: perf(ml): reduce tf-idf feature matrix memory footprint (iteration 2)
-// Refinement 207: fix(ml): adjust duplicate similarity threshold to 0.78 for ward radius (iteration 2)
-// Refinement 216: refactor(ui): clean up unneeded styled component wrappers in card primitive (iteration 2)
-// Refinement 225: refactor(gis): debounce map pan events to reduce re-render frequency (iteration 2)
-// Refinement 234: perf(admin): optimize live complaint subscription query performance (iteration 2)
-// Refinement 243: feat(emergency): add direct hotline for anti-corruption commission 106 (iteration 2)
-// Refinement 252: build(vite): configure chunk splitting for vendor and leaflet libraries (iteration 2)

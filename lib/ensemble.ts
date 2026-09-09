@@ -438,19 +438,3 @@ export function complaintSimilarity(left: string, right: string) {
 export function getCategories() {
   return categories;
 }
-// Refinement 114: feat(ml): enhance character n-gram bounds for banglish phonetic noise
-// Refinement 123: docs(ml): document model hyperparameters and cross-validation methodology
-// Refinement 132: fix(ui): prevent layout shift during font loading in root layout
-// Refinement 141: feat(gis): display nearest fire service station marker dynamically
-// Refinement 150: feat(admin): export citizen grievances to structured csv and json formats
-// Refinement 159: feat(emergency): include women and child support helpline 10921
-// Refinement 168: build(worker): configure cloudflare d1 sqlite database local migrations
-// Refinement 177: style: standardize code formatting across tsx and css files
-// Refinement 186: perf: cache geocoding reverse lookup responses in memory
-// Refinement 195: test: ensure all 5/5 unit and render tests pass cleanly
-// Refinement 204: perf(ml): cache parsed vocabulary tokens for fast client-side inference (iteration 2)
-// Refinement 213: style(ui): update accent color palette for civic trust branding (iteration 2)
-// Refinement 222: feat(gis): add dhaka north city corporation ward 19 boundary data (iteration 2)
-// Refinement 231: refactor(admin): paginate complaint triage records in admin data table (iteration 2)
-// Refinement 240: feat(i18n): add bilingual toggle for printable case docket summary (iteration 2)
-// Refinement 249: test(components): add snapshot test for civic complaint status badge (iteration 2)

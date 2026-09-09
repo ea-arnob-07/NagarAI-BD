@@ -324,19 +324,3 @@ export const datasets = [
   { title: "Roadway Flooding", use: { en: "Flooded-road verification", bn: "জলাবদ্ধ সড়ক যাচাই" }, detail: { en: "441 annotated images · CC BY 4.0", bn: "৪৪১টি annotated image · CC BY 4.0" }, href: "https://data.mendeley.com/datasets/t395bwcvbw/1" },
   { title: "TACO", use: { en: "Litter detection and segmentation", bn: "বর্জ্য শনাক্তকরণ ও segmentation" }, detail: { en: "COCO-format litter annotations", bn: "COCO-format litter annotation" }, href: "https://github.com/pedropro/TACO" },
 ];
-// Refinement 112: refactor(ml): optimize soft-voting weights derived from validation f1
-// Refinement 121: feat(ml): implement semantic duplicate detection cosine scoring
-// Refinement 130: perf(ui): memoize chart rendering components in admin dashboard
-// Refinement 139: fix(gis): handle geolocation permission denial gracefully with fallback pin
-// Refinement 148: fix(admin): resolve sorting glitch on severity column in triage table
-// Refinement 157: feat(emergency): add national emergency helpline 999 quick-dial button
-// Refinement 166: perf(build): optimize tree-shaking for lucide-react icon imports
-// Refinement 175: docs: add civic department jurisdiction mapping reference
-// Refinement 184: style: polish button hover state transitions with subtle elevation
-// Refinement 193: feat: display consensus agreement bar across all 6 ml models
-// Refinement 202: feat(ml): add confidence thresholding for human-in-the-loop triage (iteration 2)
-// Refinement 211: refactor(ui): extract reusable badge variants using class-variance-authority (iteration 2)
-// Refinement 220: perf(ui): lazy load heavy leaflet icons and map tile layers (iteration 2)
-// Refinement 229: feat(admin): add one-click pdf municipal docket print preview (iteration 2)
-// Refinement 238: feat(i18n): improve banglish transliteration mapping for road damage (iteration 2)
-// Refinement 247: test(components): test form submission validation with empty text inputs (iteration 2)

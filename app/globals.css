@@ -1897,19 +1897,3 @@ svg { width: 1.05rem; height: 1.05rem; }
   }
 }
 
-/* Refinement 118: test(ml): add test cases for multi-dialect civic reports */
-/* Refinement 127: fix(ui): resolve z-index stacking context on mobile navigation drawer */
-/* Refinement 136: fix(ui): correct input-otp focus ring outline on touch screens */
-/* Refinement 145: feat(admin): implement automated sms dispatch mock for executive engineers */
-/* Refinement 154: fix(i18n): correct typo in municipal health clinic notice description */
-/* Refinement 163: test(components): test authority info lookup with unknown ward ID */
-/* Refinement 172: docs: add system architecture sequence diagram to readme */
-/* Refinement 181: fix: ensure proper aria attributes on complaint description textarea */
-/* Refinement 190: style: improve table row hover highlights on mobile screen widths */
-/* Refinement 199: feat(ml): enhance character n-gram bounds for banglish phonetic noise (iteration 2) */
-/* Refinement 208: docs(ml): document model hyperparameters and cross-validation methodology (iteration 2) */
-/* Refinement 217: fix(ui): prevent layout shift during font loading in root layout (iteration 2) */
-/* Refinement 226: feat(gis): display nearest fire service station marker dynamically (iteration 2) */
-/* Refinement 235: feat(admin): export citizen grievances to structured csv and json formats (iteration 2) */
-/* Refinement 244: feat(emergency): include women and child support helpline 10921 (iteration 2) */
-/* Refinement 253: build(worker): configure cloudflare d1 sqlite database local migrations (iteration 2) */

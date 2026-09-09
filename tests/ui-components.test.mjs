@@ -84,18 +84,3 @@ test("renders sidebar skeletons deterministically", async () => {
   assert.equal(first, second);
   assert.match(first, /--skeleton-width:70%/);
 });
-// Refinement 120: refactor(ml): clean up unused scipy imports in ensemble runner
-// Refinement 129: feat(ui): add accessible keyboard navigation to complaint category grid
-// Refinement 138: feat(gis): add chittagong city corporation ward official contact directory
-// Refinement 147: feat(admin): add date range and category filtering in complaints registry
-// Refinement 156: refactor(i18n): centralize content strings in content dictionary module
-// Refinement 165: test(e2e): verify end-to-end complaint intake and triage pipeline
-// Refinement 174: docs: document 6-model ensemble voting formula in markdown table
-// Refinement 183: fix: validate uploaded image file types and limit size to 5mb
-// Refinement 192: fix: handle 500 error gracefully with fallback offline classifier
-// Refinement 201: refactor(ml): streamline complement naive bayes prior calibration (iteration 2)
-// Refinement 210: feat(ui): add smooth spring animations for alert dialog transitions (iteration 2)
-// Refinement 219: feat(ui): add tooltip explanations for machine learning confidence scores (iteration 2)
-// Refinement 228: fix(gis): fix marker popup styling in high contrast dark mode (iteration 2)
-// Refinement 237: feat(i18n): expand bangla civic vocabulary dictionary for waterlogging terms (iteration 2)
-// Refinement 246: test(components): verify interactive map coordinate selector rendering (iteration 2)

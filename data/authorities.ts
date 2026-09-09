@@ -448,19 +448,3 @@ export function getResponsibleOfficer(
   };
 }
 
-// Refinement 113: perf(ml): reduce tf-idf feature matrix memory footprint
-// Refinement 122: fix(ml): adjust duplicate similarity threshold to 0.78 for ward radius
-// Refinement 131: refactor(ui): clean up unneeded styled component wrappers in card primitive
-// Refinement 140: refactor(gis): debounce map pan events to reduce re-render frequency
-// Refinement 149: perf(admin): optimize live complaint subscription query performance
-// Refinement 158: feat(emergency): add direct hotline for anti-corruption commission 106
-// Refinement 167: build(vite): configure chunk splitting for vendor and leaflet libraries
-// Refinement 176: docs: add contribution guidelines and ethical ai principles
-// Refinement 185: refactor: clean up deprecated react lifecycle hooks in map container
-// Refinement 194: docs: update license attribution and team evolutionx credits
-// Refinement 203: test(ml): add test cases for multi-dialect civic reports (iteration 2)
-// Refinement 212: fix(ui): resolve z-index stacking context on mobile navigation drawer (iteration 2)
-// Refinement 221: fix(ui): correct input-otp focus ring outline on touch screens (iteration 2)
-// Refinement 230: feat(admin): implement automated sms dispatch mock for executive engineers (iteration 2)
-// Refinement 239: fix(i18n): correct typo in municipal health clinic notice description (iteration 2)
-// Refinement 248: test(components): test authority info lookup with unknown ward ID (iteration 2)

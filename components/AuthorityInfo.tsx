@@ -110,19 +110,3 @@ export default function AuthorityInfo({ locale, lat, lng, locationText, detected
     </div>
   );
 }
-// Refinement 115: fix(ml): handle edge case for zero-length complaint descriptions
-// Refinement 124: style(ui): improve contrast ratios on high priority severity badges
-// Refinement 133: style(ui): refine dark mode borders and card shadow elevation
-// Refinement 142: perf(gis): optimize leaflet tile cache headers for low-bandwidth networks
-// Refinement 151: security(admin): enforce strict session token checks on status update actions
-// Refinement 160: fix(emergency): format emergency phone links with tel: protocol standard
-// Refinement 169: fix(build): ensure drizzle schema exports match d1 database columns
-// Refinement 178: refactor: extract common types for civic grievance dockets
-// Refinement 187: feat: add confirmation modal before resolving high-severity complaints
-// Refinement 196: chore: setup release configuration and cross-env compatibility
-// Refinement 205: refactor(ml): clean up unused scipy imports in ensemble runner (iteration 2)
-// Refinement 214: feat(ui): add accessible keyboard navigation to complaint category grid (iteration 2)
-// Refinement 223: feat(gis): add chittagong city corporation ward official contact directory (iteration 2)
-// Refinement 232: feat(admin): add date range and category filtering in complaints registry (iteration 2)
-// Refinement 241: refactor(i18n): centralize content strings in content dictionary module (iteration 2)
-// Refinement 250: test(e2e): verify end-to-end complaint intake and triage pipeline (iteration 2)

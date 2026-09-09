@@ -587,19 +587,3 @@ function toast(msg: string) {
     setTimeout(() => el.remove(), 3200);
   }
 }
-// Refinement 116: refactor(ml): streamline complement naive bayes prior calibration
-// Refinement 125: feat(ui): add smooth spring animations for alert dialog transitions
-// Refinement 134: feat(ui): add tooltip explanations for machine learning confidence scores
-// Refinement 143: fix(gis): fix marker popup styling in high contrast dark mode
-// Refinement 152: feat(i18n): expand bangla civic vocabulary dictionary for waterlogging terms
-// Refinement 161: test(components): verify interactive map coordinate selector rendering
-// Refinement 170: refactor(db): add indexes on complaint category and ward id columns
-// Refinement 179: perf: reduce client-side bundle size by stripping debug symbols
-// Refinement 188: fix: prevent duplicate form submissions with disabled submit state
-// Refinement 197: refactor(ml): optimize soft-voting weights derived from validation f1 (iteration 2)
-// Refinement 206: feat(ml): implement semantic duplicate detection cosine scoring (iteration 2)
-// Refinement 215: perf(ui): memoize chart rendering components in admin dashboard (iteration 2)
-// Refinement 224: fix(gis): handle geolocation permission denial gracefully with fallback pin (iteration 2)
-// Refinement 233: fix(admin): resolve sorting glitch on severity column in triage table (iteration 2)
-// Refinement 242: feat(emergency): add national emergency helpline 999 quick-dial button (iteration 2)
-// Refinement 251: perf(build): optimize tree-shaking for lucide-react icon imports (iteration 2)

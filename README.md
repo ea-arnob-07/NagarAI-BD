@@ -1,23 +1,22 @@
 <div align="center">
 
-# 🟢 🔴 NAGAR·AI BD (নাগরাই)
+# 🟢 🔴 NAGAR·AI BD
 ### **Intelligent Civic Grievance Triage & Human-Reviewed Decision Support System**
 *Empowering Citizens · Assisting Administrators · Accelerating Public Governance in Bangladesh*
 
 <br/>
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Online-00C781?style=for-the-badge&logo=cloudflare&logoColor=white)](https://nagarai-bd.nexameet-arnob.workers.dev)
 [![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Python](https://img.shields.io/badge/Python_3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
-[![Scikit-Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://nagarai-bd.nexameet-arnob.workers.dev)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Cloudflare](https://img.shields.io/badge/Cloudflare_D1-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://developers.cloudflare.com/d1/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-f32948.svg?style=for-the-badge)](LICENSE)
 
 <br/>
 
-[🌟 Features](#-key-features) • [🧠 6-Model Ensemble](#-six-model-machine-learning-ensemble) • [🗺️ Ward Geolocation](#-interactive-ward-map--gis) • [🏗️ Architecture](#-system-architecture) • [🚀 Quickstart](#-getting-started) • [👥 Team](#-team-evolutionx)
+**[🚀 Live Demonstration](https://nagarai-bd.nexameet-arnob.workers.dev)** • [🌟 Features](#-key-features) • [🧠 6-Model Ensemble](#-six-model-machine-learning-ensemble) • [🔐 Admin Access](#-administrator-credentials) • [🗺️ Ward GIS](#-interactive-ward-map--gis) • [🏗️ Architecture](#-system-architecture) • [👥 Team](#-team-evolutionx)
 
 <br/>
 
@@ -27,11 +26,33 @@
 
 ---
 
+## 🌐 Live Production Deployment
+
+The platform is deployed live on Cloudflare's global edge network:
+
+* **Production URL:** [https://nagarai-bd.nexameet-arnob.workers.dev](https://nagarai-bd.nexameet-arnob.workers.dev)
+* **Architecture:** React 19 Server Components (Vite RSC) running on Cloudflare Workers edge runtime with client-side 6-model ensemble fallback.
+
+---
+
+## 🔐 Administrator Credentials
+
+To access the municipal operations dashboard, switch to the **Admin Operations** tab on the live platform and use the following credentials:
+
+| Field | Value |
+| :--- | :--- |
+| **Admin Portal URL** | [https://nagarai-bd.nexameet-arnob.workers.dev](https://nagarai-bd.nexameet-arnob.workers.dev) |
+| **Email** | `eaarnob178@gmail.com` |
+| **Password** | `nagarai123` |
+| **Permissions** | Full triage queue, duplicate case merging, GIS official contact directory, PDF case docket generator |
+
+---
+
 ## 📖 Overview
 
-**NagarAI BD** is a state-of-the-art, human-reviewed civic complaint triage demonstrator engineered specifically for Bangladesh's municipal governance challenges. Citizens across urban and rural wards often voice critical public utility issues in **Bangla (বাংলা)**, **Banglish**, or **English**. 
+**NagarAI BD** is a state-of-the-art, human-reviewed civic complaint triage demonstrator engineered specifically for municipal governance challenges in Bangladesh. Citizens across urban and rural wards frequently report public infrastructure and service delivery issues in **Bangla**, informal phonetically typed **Banglish**, or **English**.
 
-NagarAI bridges citizens and municipal authorities by leveraging an **ensemble of 6 supervised Machine Learning models** to analyze incoming grievances, predict civic departments, evaluate severity and public safety risk, verify duplicate reports, and automatically route dockets to responsible ward councilors and municipal engineers.
+NagarAI bridges citizens and municipal authorities by leveraging an **ensemble of 6 supervised Machine Learning models** to analyze incoming grievances, predict civic departments, evaluate severity and public safety risks, detect duplicate reports within the geographic radius, and automatically route dockets to responsible ward councilors and municipal executive engineers.
 
 > 🛡️ **Ethical AI & Human-in-the-Loop Principle:**  
 > NagarAI functions strictly as **decision support**. It **never** automatically deletes, ignores, or deprioritizes citizen reports. Whenever model confidence or consensus is uncertain, complaints are flagged for priority human review.
@@ -44,7 +65,7 @@ NagarAI bridges citizens and municipal authorities by leveraging an **ensemble o
   <tr>
     <td width="50%">
       <h3>🇧🇩 Bilingual & Banglish NLP</h3>
-      <p>Seamlessly accepts citizen grievances in standard <b>Bangla</b>, informal phonetically typed <b>Banglish</b>, and <b>English</b> with high noise tolerance and spelling resilience.</p>
+      <p>Seamlessly accepts citizen grievances in standard Bangla, informal phonetically typed Banglish, and English with high noise tolerance and spelling resilience.</p>
     </td>
     <td width="50%">
       <h3>🧠 6-Model Supervised Ensemble</h3>
@@ -153,9 +174,9 @@ NagarAI categorizes grievances into six core civic service divisions:
 
 ## 🗺️ Interactive Ward Map & GIS
 
-- **Ward Boundary Triage:** Automatically maps citizen location to local administrative units (e.g., Dhaka North/South City Corporation, Chittagong, Sylhet).
-- **Responsible Official Registry:** Displays the assigned Ward Councilor and Executive Engineer's contact number and office credentials.
-- **One-Click Notice:** Directly dispatches official inquiry notices, SMS alerts, or phone calls from the administration panel.
+* **Ward Boundary Triage:** Automatically maps citizen location to local administrative units (e.g., Dhaka North/South City Corporation, Chittagong, Sylhet).
+* **Responsible Official Registry:** Displays the assigned Ward Councilor and Executive Engineer's contact number and office credentials.
+* **One-Click Notice:** Directly dispatches official inquiry notices, SMS alerts, or phone calls from the administration panel.
 
 ---
 
@@ -179,8 +200,8 @@ NagarAI categorizes grievances into six core civic service divisions:
 ## 🚀 Getting Started
 
 ### Prerequisites
-- **Node.js** `>= 22.13.0`
-- **Python** `>= 3.10` (for training custom models / ML API)
+* **Node.js** `>= 22.13.0`
+* **Python** `>= 3.10` (optional, for retraining custom ML models)
 
 ---
 
@@ -189,24 +210,24 @@ NagarAI categorizes grievances into six core civic service divisions:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/nagarai-bd.git
-cd nagarai-bd
+git clone https://github.com/ea-arnob-07/NagarAI-BD.git
+cd NagarAI-BD
 
 # Install packages
 npm install
 
-# Start development server
+# Start local development server
 npm run dev
 ```
 
-The web application runs with a **portable in-browser ensemble engine** out of the box (`lib/ensemble.ts`), enabling full demonstration without requiring Python services.
+The web application runs with an embedded, portable **in-browser ensemble engine** (`lib/ensemble.ts`), enabling full live demonstration without requiring external Python microservices.
 
 To build and run tests:
 ```bash
 # Build production bundle
 npm run build
 
-# Run automated tests (5/5 unit & render tests)
+# Run automated tests
 npm test
 ```
 
@@ -244,47 +265,38 @@ python -m nagarai_ml.train --data ../data/demo_complaints.csv --output artifacts
 uvicorn nagarai_ml.api:app --reload --port 8000
 ```
 
-#### Connecting Frontend to ML Microservice:
-Create a `.env.local` file in the root directory:
-```env
-NEXT_PUBLIC_NAGARAI_API_URL=https://api.nagarai.org
-```
-*(If the API server is unreachable, the frontend seamlessly falls back to the embedded client ensemble).*
-
 ---
 
 ## 📊 Evaluation & Benchmarking
 
 When running the training pipeline, metrics are written to `ml/artifacts/metrics.json` and include:
-- **Macro-Averaged F1** across all categories and severities
-- **Per-Class Precision, Recall, and F1**
-- **Confusion Matrices** for both category and priority tasks
-- **Learned Soft-Voting Weights** for all 6 classifiers
-
-### Recommended External Datasets for Retraining:
-- **BanglaPSG Dataset:** Comprehensive public-service grievance dataset in Bangla (CC BY 4.0)
-- **RDD2022 (Road Damage Dataset):** Road surface damage benchmark
-- **Roadway Flooding Image Dataset:** Urban waterlogging and drainage benchmark
+* **Macro-Averaged F1** across all categories and severities
+* **Per-Class Precision, Recall, and F1**
+* **Confusion Matrices** for both category and priority tasks
+* **Learned Soft-Voting Weights** for all 6 classifiers
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-├── app/                        # Next.js App Router (Bilingual UI & Dashboards)
+├── app/                        # Next.js App Router (UI & Dashboards)
 │   ├── auth.ts                 # Civic platform user authentication handlers
 │   ├── layout.tsx              # Root HTML layout with font tokens & themes
-│   ├── page.tsx                # Main citizen triage & admin operations portal
+│   ├── page.tsx                # Citizen triage & admin operations portal
 │   └── globals.css             # Theme tokens, dark mode, high-contrast styles
 ├── build/                      # Build plugins & bundling utilities
 │   └── nagarai-vite-plugin.ts  # NagarAI custom production build plugin
 ├── components/                 # Reusable UI component library
 │   ├── LocationMap.tsx         # Leaflet interactive ward map & GIS selector
+│   ├── AuthorityInfo.tsx       # Verified civic authority contact card
+│   ├── AdminPanel.tsx          # Municipal admin operations dashboard
 │   └── ui/                     # Accessible UI primitives & charts
-├── data/                       # Benchmark civic complaints datasets (CSV/JSON)
+├── data/                       # Benchmark civic complaints datasets & authority registries
 ├── db/                         # Drizzle schema & Cloudflare D1 bindings
 ├── lib/                        # Core application business logic
 │   ├── ensemble.ts             # Portable 6-model in-browser inference engine
+│   ├── content.ts              # UI dictionaries & bilingual mappings
 │   └── api.ts                  # Resilient API client with automatic fallback
 ├── ml/                         # Machine Learning source code
 │   ├── artifacts/              # Serialized joblib weights & metrics.json
@@ -305,7 +317,7 @@ Developed with passion by **Team EvolutionX** for Bangladesh Civic Innovation:
 * **Abubakkar Siddik** — *Frontend Engineering & GIS Systems*
 
 📞 **Contact / Inquiry:** `+8801313602221`  
-🌐 **Project Showcase:** *NagarAI BD Civic Intelligence Platform*
+🌐 **Live Demo:** [https://nagarai-bd.nexameet-arnob.workers.dev](https://nagarai-bd.nexameet-arnob.workers.dev)
 
 ---
 
@@ -316,19 +328,3 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 <div align="center">
 <sub>Built with pride for a smarter, more responsive Bangladesh 🇧🇩</sub>
 </div>
-<!-- Refinement 119: perf(ml): cache parsed vocabulary tokens for fast client-side inference -->
-<!-- Refinement 128: style(ui): update accent color palette for civic trust branding -->
-<!-- Refinement 137: feat(gis): add dhaka north city corporation ward 19 boundary data -->
-<!-- Refinement 146: refactor(admin): paginate complaint triage records in admin data table -->
-<!-- Refinement 155: feat(i18n): add bilingual toggle for printable case docket summary -->
-<!-- Refinement 164: test(components): add snapshot test for civic complaint status badge -->
-<!-- Refinement 173: docs: add quickstart instructions for powershell and bash environments -->
-<!-- Refinement 182: feat: add photo attachment thumbnail preview before submission -->
-<!-- Refinement 191: refactor: modularize api client with custom request interceptors -->
-<!-- Refinement 200: fix(ml): handle edge case for zero-length complaint descriptions (iteration 2) -->
-<!-- Refinement 209: style(ui): improve contrast ratios on high priority severity badges (iteration 2) -->
-<!-- Refinement 218: style(ui): refine dark mode borders and card shadow elevation (iteration 2) -->
-<!-- Refinement 227: perf(gis): optimize leaflet tile cache headers for low-bandwidth networks (iteration 2) -->
-<!-- Refinement 236: security(admin): enforce strict session token checks on status update actions (iteration 2) -->
-<!-- Refinement 245: fix(emergency): format emergency phone links with tel: protocol standard (iteration 2) -->
-<!-- Refinement 254: fix(build): ensure drizzle schema exports match d1 database columns (iteration 2) -->
