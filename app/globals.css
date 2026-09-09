@@ -1912,3 +1912,4 @@ svg { width: 1.05rem; height: 1.05rem; }
 /* Refinement 226: feat(gis): display nearest fire service station marker dynamically (iteration 2) */
 /* Refinement 235: feat(admin): export citizen grievances to structured csv and json formats (iteration 2) */
 /* Refinement 244: feat(emergency): include women and child support helpline 10921 (iteration 2) */
+/* Refinement 253: build(worker): configure cloudflare d1 sqlite database local migrations (iteration 2) */
